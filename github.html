@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
+    <head>
     <title>My Resume Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" />
     <link rel="stylesheet" href="assets/CSS/main.css" type="text/css" />
-
+    <link rel="stylesheet" href="assets/CSS/github.css" type="text/css" />
 </head>
-
 <body>
-    <header class="container-fluid">
+   <header class="container-fluid">
         <div class="row">
             <a href="index.html">
                 <div class="col-md logo"></div>
@@ -45,27 +42,24 @@
                         <a class="hvr-sweep-to-bottom" href="github.html"><i class="fa fa-github"></i><span>GitHub</span></a>
                     </li>
                 </div>
-
             </div>
         </div>
     </header>
-    <section class="container-fluid">
+<section class="container-fluid">
         <div class="row bg-color-contact">
-            <div class="col-md-12">
-                <h3 class="contact-heading text-center">Got a project in mind?</h3>
-                <h5 class="text-uppercse text-center">Lets work together</h5>
+            <div>
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects:</h3>
+                <h5 class="uppercase text-center">(or change the username to search for other user profiles)</h5>
+            </div>
+
+            <div class="center-form">
+                <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()">
+                <div id="gh-user-data" class="clearfix"></div>
+                <div id="gh-repo-data" class="clearfix"></div>
             </div>
         </div>
-        <div class="center-form mx-auto">
-            <form class="text-center">
-                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                <button type="submit" class="btn btn-secondary">Send Project Request</button>
-            </form>
-        </div>
     </section>
-    <footer class="container-fluid">
+<footer class="container-fluid">
         <div class="row">
             <div class="col-md">
                 <div class="footer-details">
@@ -99,7 +93,7 @@
         </div>
 
 
-    </footer>
+    </footer>   
 </body>
-
+  
 </html>

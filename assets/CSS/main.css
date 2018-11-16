@@ -1,11 +1,10 @@
-
 .bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color:#fff;
-    
+    background-color: #fff;
+
 }
 
 .bg-color-personal-info {
@@ -14,7 +13,7 @@
 
 .bg-color-work-history {
     background-color: purple;
-    
+
 }
 
 .bg-color-contact {
@@ -51,6 +50,14 @@
 
 }
 
+.li-interests-bg-color {
+    background-color: #e74c3c;
+
+}
+
+.li-github-bg-color {
+    background-color: #1c4a6c;
+}
 
 
 .uppercase-general-sub {
@@ -60,6 +67,9 @@
     margin: 0;
 }
 
+#map {
+    min-height: 360px;
+}
 
 
 header {
@@ -80,8 +90,7 @@ header {
     height: 348px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 
-
+    background-size:
 }
 
 .name {
@@ -140,31 +149,32 @@ footer {
     background-color: #525252;
     color: #fafafa;
     margin-top: 0;
-    
+
 }
- 
+
 footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
-} 
+}
 
 footer .cv-pdf i:hover {
     color: #e84610;
     transition: all 0.35s ease-in-out;
-    
+
 }
 
 .footer-details {
     margin: 10px;
 }
+
 .list-inline-item {
-   margin-top: 5px;
-    
+    margin-top: 5px;
+
 }
 
-.list-inline-item a i{
+.list-inline-item a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -172,8 +182,8 @@ footer .cv-pdf i:hover {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color:#fafafa;
-    background:#8f8f8f;
+    color: #fafafa;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
 }
 
@@ -199,20 +209,21 @@ footer .cv-pdf i:hover {
 
 .row .row-table {
     display: table;
-    
-    
 
-    
+
+
+
 }
+
 .history-heading,
 .section-heading {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
     text-transform: uppercase;
-    
-    
-    
+
+
+
 }
 
 .three-reasons-icon {
@@ -241,8 +252,8 @@ footer .cv-pdf i:hover {
 
 
 .timeline-item p {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -279,12 +290,12 @@ footer .cv-pdf i:hover {
     vertical-align: top;
     margin: 0px;
     font-weight: 700;
-    
+
 }
 
 
 .value {
-    display:inline-block;
+    display: inline-block;
     position: relative;
     width: 60%;
 }
@@ -311,8 +322,8 @@ footer .cv-pdf i:hover {
 
 
 .history-heading {
- color:#fafafa;  
- margin-bottom:  50px;
+    color: #fafafa;
+    margin-bottom: 50px;
 
 }
 
@@ -335,7 +346,3 @@ button[type="submit"] {
     background-color: #e84610;
     color: #fafafa;
 }
-
-
-
-
